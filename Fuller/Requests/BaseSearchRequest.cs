@@ -12,7 +12,7 @@ namespace Fuller.Requests
             _options = new Dictionary<string, string>();
         }
 
-        protected void setOption(string key, string value)
+        public void SetOption(string key, string value)
         {
             _options[key] = value;
         }

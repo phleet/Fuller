@@ -6,8 +6,8 @@ namespace Fuller.Requests
         
         public CountdownSearchRequest(string hostname, string token) : base(hostname, token)
         {
-            setOption("queryKey", "upcoming");
-            setOption("order", "newest");
+            SetOption("queryKey", "upcoming");
+            SetOption("order", "newest");
         }
 
         public dynamic Execute()
